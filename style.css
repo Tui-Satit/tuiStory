@@ -1,10 +1,21 @@
+body {
+    font-family: 'Kinnari', sans-serif;
+  }
+  
 .indexImages {
     width: 40%; 
     float: left; 
     margin-right: 10px;
 }
 .detailImages {
-    width: 300px; 
+    width: 250px; 
     float: left; 
     padding: 10px;
 }
+.welcomeImages {
+    width: 120px; 
+    float: left; 
+    padding: 10px;
+    margin-right: 50px;
+}
+
