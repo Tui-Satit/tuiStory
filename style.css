@@ -3,3 +3,8 @@
     float: left; 
     margin-right: 10px;
 }
+.detailImages {
+    width: 300px; 
+    float: left; 
+    padding: 10px;
+}
