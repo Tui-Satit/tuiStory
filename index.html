@@ -11,27 +11,36 @@
         <!--Connect StyleSheet-->
     <link rel="stylesheet" href="style.css">
     <link rel="StyleSheet" href="reset.css">
+    <style>
+        .iphone-screen {
+            max-width: 375px; /* Max width of iPhone 14 */
+            margin: auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-5">
                 <div class="container-fluid mx-5">
-                    <a class="navbar-brand" href="#">Tui Story</a>
+                    <a class="navbar-brand" href="#"><h1>Tui Story</h1></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">หน้าแรก</a>
+                                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:3000/index.html">หน้าแรก</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">เกี่ยวกับผม</a>
+                                <a class="nav-link" href="http://127.0.0.1:3000/aboutMe.html">เกี่ยวกับผม</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">เล่าไปเรื่อย</a>
+                                <a class="nav-link" href="http://127.0.0.1:3000/storyTelling.html">เล่าไปเรื่อย</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ติดต่อ</a>
+                                <a class="nav-link" href="http://127.0.0.1:3000/connect.html">ติดต่อ</a>
                             </li>
                         </ul>
                     </div>
@@ -39,19 +48,19 @@
             </nav>
          
 
-    <div class="container-fluid justify-content-center">
+    <div class="container-sm justify-content-center">
 
         <!--Row 1-->
         <div class="row justify-content-center"><!--Row1-->
             
                  <!--Col left1-->
-         <div class="col-4 float-start mb-3 m-2 p-2 justify-content-center">
+         <div class="col-8 float-start mb-3 m-2 p-2 justify-content-center">
          
-          <img src="https://cdn.pixabay.com/photo/2023/11/07/06/52/forest-8371211_1280.jpg" style = "width: 99%;" >
+          <img src="https://cdn.pixabay.com/photo/2023/11/07/06/52/forest-8371211_1280.jpg" style = "width: 50%; float: left; margin: 10px;" >
             
                 <h1>Colomn Left1</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore illo ad provident facere, delectus sapiente a ipsam obcaecati repudiandae similique enim quas odio eius aperiam ea eligendi vel ex officiis?</p>
-              
+                
             </div>
         
                <!--Col right1-->
