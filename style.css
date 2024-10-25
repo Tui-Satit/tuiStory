@@ -6,16 +6,19 @@ body {
     width: 40%; 
     float: left; 
     margin-right: 50px;
+    border-radius: 10px;
 }
 .detailImages {
     width: 240px; 
     float: left; 
     padding: 10px;
+    border-radius: 20px;
 }
 .welcomeImages {
     width: 120px; 
     float: left; 
     padding: 10px;
     margin-right: 50px;
+    border-radius: 20px;
 }
 
