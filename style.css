@@ -5,10 +5,10 @@ body {
 .indexImages {
     width: 40%; 
     float: left; 
-    margin-right: 10px;
+    margin-right: 50px;
 }
 .detailImages {
-    width: 250px; 
+    width: 240px; 
     float: left; 
     padding: 10px;
 }
